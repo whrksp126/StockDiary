@@ -1,0 +1,86 @@
+.styled-table {
+  border-collapse: collapse; /* 표의 테두리와 셀의 테두리 사이의 간격을 없앴다, 겹치는 부분은 한 줄로 나타냅니다.*/
+  margin: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  max-width: 1400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #8b0098;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px 8px
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(odd){
+  /* background-color: #f4ebf7; */
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:nth-of-type(even){
+  background-color: #eee0f3;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #980021;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #008cba;
+}
+
+.btn-delete {
+  background-color: #f17d74;
+}
+
+.btn-view {
+  background-color: #58dee7;
+  color: black;
+}
+
+.dropdown {
+  width: 20%;
+  margin: 5px;
+}
+
+.btn-reset {
+  background-color: darkolivegreen;
+  color: black;
+}
+
+.btn-active {
+  background-color: #808c4a;
+  color: black;
+}
+
+.btn-inactive {
+  background-color: #445f61;
+  color: black;
+}
+
+.btn-outactive {
+  background-color: #614844;
+  color: black;
+}

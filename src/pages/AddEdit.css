@@ -1,0 +1,27 @@
+input[type="text"],
+input[type='date'],
+input[type='number'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;/* padding, border 등에 의해 길이가 커지진 않게 함 */
+}
+
+input[type='submit']{
+  width: 100%;
+  background-color: #4caf50;
+  color:  white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
