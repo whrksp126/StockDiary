@@ -32,7 +32,7 @@ const Home = () => {
     fireDb.child('stock').on('value', (snapshot) => {
       if(snapshot.val() !== null){
         setData({...snapshot.val()})
-        console.log(data)
+        // console.log(data)
       } else {
         setData({})
       }
